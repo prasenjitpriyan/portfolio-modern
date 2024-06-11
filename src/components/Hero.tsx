@@ -20,9 +20,9 @@ const Hero: React.FC = () => {
           duration: 0.5,
           ease: [0.4, 0.0, 0.2, 1],
         }}
-        className="max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
+        className="max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto text-lime-900"
       >
-        <Highlight className="text-xl md:text-3xl lg:text-4xl font-bold text-lime-900">
+        <Highlight className="text-xl md:text-3xl lg:text-4xl font-bold">
           Innovative Solutions with JavaScript
         </Highlight>
         <div className="text-xl md:text-3xl lg:text-4xl pt-5">
