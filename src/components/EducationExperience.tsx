@@ -17,7 +17,7 @@ const EducationExperience: React.FC = () => {
         <Boxes />
         <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 py-20 px-10 gap-10">
           <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-lime-100">
-            <div className="min-h-96 flex flex-col justify-center items-center">
+            <div className="min-h-[35rem] flex flex-col justify-center items-center">
               <div className="flex flex-col py-2 justify-center items-center">
                 <p className="underline text-lime-950">2008 - 2013</p>
               </div>
@@ -50,9 +50,9 @@ const EducationExperience: React.FC = () => {
             </div>
           </BackgroundGradient>
           <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-lime-100">
-            <div className="min-h-96 flex flex-col justify-center items-center">
+            <div className="min-h-[35rem] flex flex-col justify-center items-center">
               <div className="flex flex-col py-2 justify-center items-center">
-                <p className="underline text-lime-950">2014 - 2023</p>
+                <p className="underline text-lime-950">2014 - 2024</p>
               </div>
               <div className="flex flex-col py-2 justify-center items-center">
                 <h3 className="text-2xl text-lime-900">Postal Assistant</h3>
@@ -70,10 +70,28 @@ const EducationExperience: React.FC = () => {
                 </h3>
                 <p className="text-lime-500">upGrad KnowledgeHut</p>
               </div>
+              <div className="flex flex-col py-2 justify-center items-center">
+                <h3 className="text-2xl text-lime-900">
+                  Hackathon Participation
+                </h3>
+                <p className="text-lime-500">upGrad KnowledgeHut</p>
+              </div>
+              <div className="flex flex-col py-2 justify-center items-center">
+                <h3 className="text-2xl text-lime-900">Meta</h3>
+                <p className="text-lime-500">
+                  Introduction to Front-End Development
+                </p>
+                <p className="text-lime-500">Programming with JavaScript</p>
+                <p className="text-lime-500">Version Control</p>
+                <p className="text-lime-500">HTML and CSS in depth</p>
+                <p className="text-lime-500">Principles of UX/UI Design</p>
+                <p className="text-lime-500">React Basic & Advance</p>
+                <p className="text-lime-500">Front-End Developer Capstone</p>
+              </div>
             </div>
           </BackgroundGradient>
           <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-lime-100">
-            <div className="min-h-96 flex flex-col justify-center items-center">
+            <div className="min-h-[35rem] flex flex-col justify-center items-center">
               <div className="flex flex-col py-2 justify-center items-center">
                 <p className="underline text-lime-950">2024</p>
               </div>
