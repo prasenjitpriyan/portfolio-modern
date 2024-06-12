@@ -68,7 +68,7 @@ const Advantage: React.FC = () => {
       <h1 className="text-4xl text-center font-semibold py-10 text-lime-900">
         My Advantage
       </h1>
-      <div className="h-[40rem] rounded-md flex flex-col antialiased items-center justify-center relative overflow-hidden">
+      <div className="h-[30rem] rounded-md flex flex-col antialiased items-center justify-center relative overflow-hidden">
         <BackgroundBeams />
         <InfiniteMovingCards
           items={testimonials}
