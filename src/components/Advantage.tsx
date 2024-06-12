@@ -13,6 +13,7 @@ import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
+import { RiNextjsFill } from "react-icons/ri";
 
 const testimonials = [
   {
@@ -54,6 +55,10 @@ const testimonials = [
   {
     skill: "Node JS",
     icon: <>{<FaNodeJs className="text-[#3c873a]" />}</>,
+  },
+  {
+    skill: "Next JS",
+    icon: <>{<RiNextjsFill />}</>,
   },
 ];
 

@@ -95,13 +95,16 @@ export const InfiniteMovingCards = ({
                 className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
               ></div>
               <div className="flex flex-col gap-3">
+                <span className="flex justify-center items-center w-[100px] h-[100px] bg-lime-300 rounded-full">
+                  <span className="flex justify-center items-center w-[80px] h-[80px] text-4xl bg-lime-200 rounded-full">
+                    <span className="flex justify-center items-center w-[60px] h-[60px] bg-lime-100 rounded-full">
+                      {item.icon}
+                    </span>
+                  </span>
+                </span>
+
                 <span className="text-sm leading-[1.6] text-lime-950 font-normal">
                   {item.skill}
-                </span>
-                <span className="flex justify-center items-center w-[80px] h-[80px] text-4xl bg-lime-300 rounded-full">
-                  <span className="flex justify-center items-center w-[60px] h-[60px] bg-lime-200 rounded-full">
-                    {item.icon}
-                  </span>
                 </span>
               </div>
             </blockquote>
