@@ -1,4 +1,5 @@
 import Advantage from "@/components/Advantage";
+import EducationExperience from "@/components/EducationExperience";
 import Hero from "@/components/Hero";
 import React from "react";
 
@@ -11,6 +12,7 @@ const Home: React.FC = () => {
       </div>
       <div>
         <Advantage />
+        <EducationExperience />
       </div>
     </main>
   );
