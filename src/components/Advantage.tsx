@@ -58,7 +58,7 @@ const testimonials = [
   },
   {
     skill: "Next JS",
-    icon: <>{<RiNextjsFill />}</>,
+    icon: <>{<RiNextjsFill className="text-lime-950" />}</>,
   },
 ];
 
