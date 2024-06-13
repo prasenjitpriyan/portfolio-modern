@@ -1,3 +1,4 @@
+import Achievement from "@/components/Achievement";
 import Advantage from "@/components/Advantage";
 import EducationExperience from "@/components/EducationExperience";
 import Hero from "@/components/Hero";
@@ -15,6 +16,7 @@ const Home: React.FC = () => {
         <Advantage />
         <EducationExperience />
         <Project />
+        <Achievement />
       </div>
     </main>
   );
