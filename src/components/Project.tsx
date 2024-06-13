@@ -1,85 +1,97 @@
 "use client";
 
 import React from "react";
-import Image from "next/image";
 import { Tabs } from "@/components/ui/tabs";
 import Link from "next/link";
-import project from "@/assets/images/bg291.jpg";
+import {
+  Blog,
+  LittleLemon,
+  NetFlix,
+  PrimeReality,
+  UrbanScape,
+} from "./Iframes";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const Project: React.FC = () => {
   const tabs = [
     {
-      title: "Product",
-      value: "product",
+      title: "UrbanScape",
+      value: "UrbanScape",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-lime-50 bg-gradient-to-br from-lime-400 via-lime-600 to-lime-800">
           <div className="flex justify-start gap-5">
-            <p>Product Tab</p>
-            <Link className="" href={"/"}>
-              Visit
+            <p className="text-lime-50">UrbanScape</p>
+            <Link href={"https://urbanscape-xi.vercel.app"}>
+              <FaExternalLinkAlt />
             </Link>
           </div>
-          <DummyContent />
+          <UrbanScape />
         </div>
       ),
     },
     {
-      title: "Services",
-      value: "services",
+      title: "Netflix",
+      value: "Netflix",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-lime-50 bg-gradient-to-br from-lime-400 via-lime-600 to-lime-800">
           <div className="flex justify-start gap-5">
-            <p>Services tab</p>
-            <Link className="" href={"/"}>
-              Visit
+            <p className="text-lime-50">Netflix</p>
+            <Link className="" href={"https://netflix-ebon-eight.vercel.app"}>
+              <FaExternalLinkAlt />
             </Link>
           </div>
-          <DummyContent />
+          <NetFlix />
         </div>
       ),
     },
     {
-      title: "Playground",
-      value: "playground",
+      title: "Little Lemon",
+      value: "Little Lemon",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-lime-50 bg-gradient-to-br from-lime-400 via-lime-600 to-lime-800">
           <div className="flex justify-start gap-5">
-            <p>Playground tab</p>
-            <Link className="" href={"/"}>
-              Visit
+            <p className="text-lime-50">Little Lemon</p>
+            <Link
+              className=""
+              href={"https://meta-front-end-developer-capstone-rho.vercel.app/"}
+            >
+              <FaExternalLinkAlt />
             </Link>
           </div>
-          <DummyContent />
+          <LittleLemon />
         </div>
       ),
     },
     {
-      title: "Content",
-      value: "content",
+      title: "Blog",
+      value: "Blog",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-lime-50 bg-gradient-to-br from-lime-400 via-lime-600 to-lime-800">
           <div className="flex justify-start gap-5">
-            <p>Content tab</p>
-            <Link className="" href={"/"}>
-              Visit
+            <p className="text-lime-50">Content tab</p>
+            <Link className="" href={"https://blog-g77g.onrender.com/"}>
+              <FaExternalLinkAlt />
             </Link>
           </div>
-          <DummyContent />
+          <Blog />
         </div>
       ),
     },
     {
-      title: "Random",
-      value: "random",
+      title: "Prime Reality",
+      value: "Prime Reality",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-lime-50 bg-gradient-to-br from-lime-400 via-lime-600 to-lime-800">
           <div className="flex justify-start gap-5">
-            <p>Random tab</p>
-            <Link className="" href={"/"}>
-              Visit
+            <p className="text-lime-50">Prime Reality</p>
+            <Link
+              className="text-lime-50"
+              href={"https://prime-reality.onrender.com"}
+            >
+              <FaExternalLinkAlt />
             </Link>
           </div>
-          <DummyContent />
+          <PrimeReality />
         </div>
       ),
     },
@@ -98,15 +110,3 @@ const Project: React.FC = () => {
 };
 
 export default Project;
-
-const DummyContent = () => {
-  return (
-    <Image
-      src={project}
-      alt="dummy image"
-      width="1000"
-      height="1000"
-      className="object-cover object-left-top h-[60%]  md:h-[90%] absolute -bottom-10 inset-x-0 w-[90%] rounded-xl mx-auto"
-    />
-  );
-};
