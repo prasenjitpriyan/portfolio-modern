@@ -18,7 +18,7 @@ const Project: React.FC = () => {
       title: "UrbanScape",
       value: "UrbanScape",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-lime-50 bg-gradient-to-br from-lime-400 via-lime-600 to-lime-800">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-lime-50 bg-gradient-to-br from-lime-300 via-lime-500 to-lime-700">
           <div className="flex justify-start gap-5">
             <p className="text-lime-50">UrbanScape</p>
             <Link href={"https://urbanscape-xi.vercel.app"}>
@@ -33,7 +33,7 @@ const Project: React.FC = () => {
       title: "Netflix",
       value: "Netflix",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-lime-50 bg-gradient-to-br from-lime-400 via-lime-600 to-lime-800">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-lime-50 bg-gradient-to-br from-lime-300 via-lime-500 to-lime-700">
           <div className="flex justify-start gap-5">
             <p className="text-lime-50">Netflix</p>
             <Link className="" href={"https://netflix-ebon-eight.vercel.app"}>
@@ -48,7 +48,7 @@ const Project: React.FC = () => {
       title: "Little Lemon",
       value: "Little Lemon",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-lime-50 bg-gradient-to-br from-lime-400 via-lime-600 to-lime-800">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-lime-50 bg-gradient-to-br from-lime-300 via-lime-500 to-lime-700">
           <div className="flex justify-start gap-5">
             <p className="text-lime-50">Little Lemon</p>
             <Link
@@ -66,7 +66,7 @@ const Project: React.FC = () => {
       title: "Blog",
       value: "Blog",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-lime-50 bg-gradient-to-br from-lime-400 via-lime-600 to-lime-800">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-lime-50 bg-gradient-to-br from-lime-300 via-lime-500 to-lime-700">
           <div className="flex justify-start gap-5">
             <p className="text-lime-50">Content tab</p>
             <Link className="" href={"https://blog-g77g.onrender.com/"}>
@@ -81,7 +81,7 @@ const Project: React.FC = () => {
       title: "Prime Reality",
       value: "Prime Reality",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-lime-50 bg-gradient-to-br from-lime-400 via-lime-600 to-lime-800">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-lime-50 bg-gradient-to-br from-lime-300 via-lime-500 to-lime-700">
           <div className="flex justify-start gap-5">
             <p className="text-lime-50">Prime Reality</p>
             <Link
