@@ -68,7 +68,7 @@ const Project: React.FC = () => {
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-lime-50 bg-gradient-to-br from-lime-300 via-lime-500 to-lime-700">
           <div className="flex justify-start gap-5">
-            <p className="text-lime-50">Content tab</p>
+            <p className="text-lime-50">Blog</p>
             <Link className="" href={"https://blog-g77g.onrender.com/"}>
               <FaExternalLinkAlt />
             </Link>
