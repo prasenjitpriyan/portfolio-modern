@@ -55,23 +55,43 @@ const Footer: React.FC = () => {
           </div>
         </nav>
         <div className="flex justify-center mt-8 space-x-6">
-          <Link href="/" className="text-lime-600 hover:text-lime-900">
+          <Link
+            href="https://www.linkedin.com/in/prasenjitdass"
+            target="_blank"
+            className="text-lime-600 hover:text-lime-900"
+          >
             <span className="sr-only">Linkedin</span>
             <FaLinkedin className="w-6 h-6" />
           </Link>
-          <Link href="/" className="text-lime-600 hover:text-lime-900">
+          <Link
+            href="https://github.com/prasenjitpriyan"
+            target="_blank"
+            className="text-lime-600 hover:text-lime-900"
+          >
             <span className="sr-only">Github</span>
             <FaGithub className="w-6 h-6" />
           </Link>
-          <Link href="/" className="text-lime-600 hover:text-lime-900">
+          <Link
+            href="https://x.com/constprasenjit"
+            target="_blank"
+            className="text-lime-600 hover:text-lime-900"
+          >
             <span className="sr-only">Twitter</span>
             <FaTwitter className="w-6 h-6" />
           </Link>
-          <Link href="/" className="text-lime-600 hover:text-lime-900">
-            <span className="sr-only">GitHub</span>
+          <Link
+            href="https://stackoverflow.com/users/21798146/prasenjitpriyan"
+            target="_blank"
+            className="text-lime-600 hover:text-lime-900"
+          >
+            <span className="sr-only">Stack Overflow</span>
             <FaStackOverflow className="w-6 h-6" />
           </Link>
-          <Link href="/" className="text-lime-600 hover:text-lime-900">
+          <Link
+            href="https://dribbble.com/PD420"
+            target="_blank"
+            className="text-lime-600 hover:text-lime-900"
+          >
             <span className="sr-only">Dribbble</span>
             <FaDribbble className="w-6 h-6" />
           </Link>

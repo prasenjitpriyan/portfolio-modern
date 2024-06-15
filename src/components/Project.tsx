@@ -21,7 +21,11 @@ const Project: React.FC = () => {
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-lime-50 bg-gradient-to-br from-lime-300 via-lime-500 to-lime-700">
           <div className="flex justify-start gap-5">
             <p className="text-lime-50">UrbanScape</p>
-            <Link href={"https://urbanscape-xi.vercel.app"}>
+            <Link
+              className="text-lime-50"
+              href={"https://urbanscape-xi.vercel.app"}
+              target="_blank"
+            >
               <FaExternalLinkAlt />
             </Link>
           </div>
@@ -36,7 +40,11 @@ const Project: React.FC = () => {
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-lime-50 bg-gradient-to-br from-lime-300 via-lime-500 to-lime-700">
           <div className="flex justify-start gap-5">
             <p className="text-lime-50">Netflix</p>
-            <Link className="" href={"https://netflix-ebon-eight.vercel.app"}>
+            <Link
+              className="text-lime-50"
+              href={"https://netflix-ebon-eight.vercel.app"}
+              target="_blank"
+            >
               <FaExternalLinkAlt />
             </Link>
           </div>
@@ -52,8 +60,9 @@ const Project: React.FC = () => {
           <div className="flex justify-start gap-5">
             <p className="text-lime-50">Little Lemon</p>
             <Link
-              className=""
+              className="text-lime-50"
               href={"https://meta-front-end-developer-capstone-rho.vercel.app/"}
+              target="_blank"
             >
               <FaExternalLinkAlt />
             </Link>
@@ -69,7 +78,11 @@ const Project: React.FC = () => {
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-lime-50 bg-gradient-to-br from-lime-300 via-lime-500 to-lime-700">
           <div className="flex justify-start gap-5">
             <p className="text-lime-50">Blog</p>
-            <Link className="" href={"https://blog-g77g.onrender.com/"}>
+            <Link
+              className="text-lime-50"
+              href={"https://blog-g77g.onrender.com/"}
+              target="_blank"
+            >
               <FaExternalLinkAlt />
             </Link>
           </div>
@@ -87,6 +100,7 @@ const Project: React.FC = () => {
             <Link
               className="text-lime-50"
               href={"https://prime-reality.onrender.com"}
+              target="_blank"
             >
               <FaExternalLinkAlt />
             </Link>
