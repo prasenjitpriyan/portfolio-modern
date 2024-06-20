@@ -22,21 +22,19 @@ const EducationExperience: React.FC = () => {
                 <p className="underline text-lime-950">2008 - 2013</p>
               </div>
               <div className="flex flex-col py-2 justify-center items-center">
-                <h3 className="text-2xl text-lime-900">
+                <h3 className="text-xl text-lime-900">
                   Bachelor Degree (B. Sc)
                 </h3>
                 <p className="text-lime-500">University of Calcutta</p>
               </div>
               <div className="flex flex-col py-2 justify-center items-center">
-                <h3 className="text-2xl text-lime-900">
+                <h3 className="text-xl text-lime-900">
                   Masters Degree (M. Sc)
                 </h3>
                 <p className="text-lime-500">University of Kanpur</p>
               </div>
               <div className="flex flex-col py-2 justify-center items-center">
-                <h3 className="text-2xl text-lime-900">
-                  DOEACC O Level Course
-                </h3>
+                <h3 className="text-xl text-lime-900">DOEACC O Level Course</h3>
                 <p className="text-center text-lime-500">
                   Department of Information Technology,
                   <br />
@@ -55,7 +53,7 @@ const EducationExperience: React.FC = () => {
                 <p className="underline text-lime-950">2014 - 2024</p>
               </div>
               <div className="flex flex-col py-2 justify-center items-center">
-                <h3 className="text-2xl text-lime-900">Postal Assistant</h3>
+                <h3 className="text-xl text-lime-900">Postal Assistant</h3>
                 <p className="text-center text-lime-500">
                   Department of Posts
                   <br />
@@ -65,19 +63,19 @@ const EducationExperience: React.FC = () => {
                 </p>
               </div>
               <div className="flex flex-col py-2 justify-center items-center">
-                <h3 className="text-2xl text-lime-900">
+                <h3 className="text-xl text-lime-900">
                   Full Stack Development Bootcamp
                 </h3>
                 <p className="text-lime-500">upGrad KnowledgeHut</p>
               </div>
               <div className="flex flex-col py-2 justify-center items-center">
-                <h3 className="text-2xl text-lime-900">
+                <h3 className="text-xl text-lime-900">
                   Hackathon Participation
                 </h3>
                 <p className="text-lime-500">upGrad KnowledgeHut</p>
               </div>
               <div className="flex flex-col py-2 justify-center items-center">
-                <h3 className="text-2xl text-lime-900">Meta</h3>
+                <h3 className="text-xl text-lime-900">Meta</h3>
                 <p className="text-lime-500">
                   Introduction to Front-End Development
                 </p>
@@ -96,7 +94,7 @@ const EducationExperience: React.FC = () => {
                 <p className="underline text-lime-950">2024</p>
               </div>
               <div className="flex flex-col py-2 justify-center items-center">
-                <h3 className="text-2xl text-lime-900">
+                <h3 className="text-xl text-lime-900">
                   Web Development Internship
                 </h3>
                 <p className="text-lime-500">Bharat Intern</p>
@@ -108,7 +106,7 @@ const EducationExperience: React.FC = () => {
                 <p className="text-lime-500">Cognifyz Technologies</p>
               </div>
               <div className="flex flex-col py-2 justify-center items-center">
-                <h3 className="text-2xl text-lime-900">
+                <h3 className="text-xl text-lime-900">
                   React.js Development Internship
                 </h3>
                 <p className="text-lime-500">VeriTech Software IT Services</p>
