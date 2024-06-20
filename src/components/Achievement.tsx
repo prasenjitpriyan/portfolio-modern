@@ -20,6 +20,7 @@ const Achievement: React.FC = () => {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 px-10 py-20 mx-auto w-full">
         <WobbleCard containerClassName="col-span-1 bg-gradient-to-br  from-lime-300 via-lime-500 to-lime-700 min-h-[300px] hover:bg-gradient-to-tl hover:from-lime-300 hover:via-lime-500 hover:to-lime-700">
           <Image
+            priority
             height={"2000"}
             width={"2000"}
             src={javaScript}
@@ -29,6 +30,7 @@ const Achievement: React.FC = () => {
         </WobbleCard>
         <WobbleCard containerClassName="col-span-1 bg-gradient-to-br  from-lime-300 via-lime-500 to-lime-700 min-h-[300px] hover:bg-gradient-to-tl hover:from-lime-300 hover:via-lime-500 hover:to-lime-700">
           <Image
+            priority
             height={"2000"}
             width={"2000"}
             src={upgrade}
@@ -38,6 +40,7 @@ const Achievement: React.FC = () => {
         </WobbleCard>
         <WobbleCard containerClassName="col-span-1 bg-gradient-to-br  from-lime-300 via-lime-500 to-lime-700 min-h-[300px] hover:bg-gradient-to-tl hover:from-lime-300 hover:via-lime-500 hover:to-lime-700">
           <Image
+            priority
             height={"2000"}
             width={"2000"}
             src={react}

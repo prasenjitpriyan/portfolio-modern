@@ -3,13 +3,7 @@
 import React from "react";
 import { Tabs } from "@/components/ui/tabs";
 import Link from "next/link";
-import {
-  Blog,
-  LittleLemon,
-  NetFlix,
-  PrimeReality,
-  UrbanScape,
-} from "./Iframes";
+import { Blog, PrimeReality, UrbanScape } from "./Iframes";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 const Project: React.FC = () => {
@@ -30,44 +24,6 @@ const Project: React.FC = () => {
             </Link>
           </div>
           <UrbanScape />
-        </div>
-      ),
-    },
-    {
-      title: "Netflix",
-      value: "Netflix",
-      content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-lime-50 bg-gradient-to-br from-lime-300 via-lime-500 to-lime-700">
-          <div className="flex justify-start gap-5">
-            <p className="text-lime-50">Netflix</p>
-            <Link
-              className="text-lime-50"
-              href={"https://netflix-ebon-eight.vercel.app"}
-              target="_blank"
-            >
-              <FaExternalLinkAlt />
-            </Link>
-          </div>
-          <NetFlix />
-        </div>
-      ),
-    },
-    {
-      title: "Little Lemon",
-      value: "Little Lemon",
-      content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-lime-50 bg-gradient-to-br from-lime-300 via-lime-500 to-lime-700">
-          <div className="flex justify-start gap-5">
-            <p className="text-lime-50">Little Lemon</p>
-            <Link
-              className="text-lime-50"
-              href={"https://meta-front-end-developer-capstone-rho.vercel.app/"}
-              target="_blank"
-            >
-              <FaExternalLinkAlt />
-            </Link>
-          </div>
-          <LittleLemon />
         </div>
       ),
     },
